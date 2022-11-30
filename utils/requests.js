@@ -7,6 +7,6 @@ export default {
     },
     fetchTopRated: {
         title: "Top Rated",
-        url: `/trending/top_rated?api_key=${API_KEY}&language=en-US`,
+        url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
     },
 };
